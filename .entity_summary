@@ -1,0 +1,7 @@
+- Reisepakete (reisepakete): paket_name[string/text], zielort[string/text], basispreis_erwachsener[number], kinder_faktor[number], mindestteilnehmer[number]
+- Unterkünfte (unterkuenfte): hotelname[string/text], sterne[number], preis_pro_nacht[number], kurtaxe_pro_person_nacht[number]
+- Ausflüge (ausfluege): ausflug_name[string/text], preis_pro_person[number], dauer_stunden[number]
+- Reisebuchung (reisebuchung): kunde_vorname[string/text], kunde_nachname[string/text], buchungsdatum[date/date], reisepaket[applookup/select], unterkunft[applookup/select], anzahl_erwachsene[number], anzahl_kinder[number], abreisedatum[date/date], rueckreisedatum[date/date], reisedauer_naechte[number], verpflegung[lookup/radio], reiseruecktrittsversicherung[bool], zusatzausfluege[applookup/select], paketpreis_erwachsene[number], paketpreis_kinder[number], unterkunftskosten[number], verpflegungskosten[number], kurtaxe[number], ausfluege_summe[number], versicherungskosten[number], fruehbucher_rabatt[number], netto_gesamt[number], mwst_betrag[number], brutto_gesamt[number], anzahlung[number]
+  → reisepaket links to app_id 6a031f4c161bbeec8df93d84
+  → unterkunft links to app_id 6a031f5397966ce6d6355a09
+  → zusatzausfluege links to app_id 6a031f53b08cd498187c08c5

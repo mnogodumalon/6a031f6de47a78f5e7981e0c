@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "reisepakete",
+      "app_id": "6a031f4c161bbeec8df93d84",
+      "path": "/rest/apps/6a031f4c161bbeec8df93d84/records",
+      "allowed_fields": [
+        "paket_name",
+        "zielort",
+        "basispreis_erwachsener",
+        "kinder_faktor",
+        "mindestteilnehmer"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Reisepakete — Formular"
+    },
+    {
+      "entity": "unterkuenfte",
+      "app_id": "6a031f5397966ce6d6355a09",
+      "path": "/rest/apps/6a031f5397966ce6d6355a09/records",
+      "allowed_fields": [
+        "hotelname",
+        "sterne",
+        "preis_pro_nacht",
+        "kurtaxe_pro_person_nacht"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Unterkünfte — Formular"
+    },
+    {
+      "entity": "ausfluege",
+      "app_id": "6a031f53b08cd498187c08c5",
+      "path": "/rest/apps/6a031f53b08cd498187c08c5/records",
+      "allowed_fields": [
+        "ausflug_name",
+        "preis_pro_person",
+        "dauer_stunden"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Ausflüge — Formular"
+    },
+    {
+      "entity": "reisebuchung",
+      "app_id": "6a031f549b19e27808c3cc43",
+      "path": "/rest/apps/6a031f549b19e27808c3cc43/records",
+      "allowed_fields": [
+        "kunde_vorname",
+        "kunde_nachname",
+        "buchungsdatum",
+        "anzahl_erwachsene",
+        "anzahl_kinder",
+        "abreisedatum",
+        "rueckreisedatum",
+        "reisedauer_naechte",
+        "verpflegung",
+        "reiseruecktrittsversicherung",
+        "paketpreis_erwachsene",
+        "paketpreis_kinder",
+        "unterkunftskosten",
+        "verpflegungskosten",
+        "kurtaxe",
+        "ausfluege_summe",
+        "versicherungskosten",
+        "fruehbucher_rabatt",
+        "netto_gesamt",
+        "mwst_betrag",
+        "brutto_gesamt",
+        "anzahlung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Reisebuchung — Formular"
+    }
+  ]
+}
