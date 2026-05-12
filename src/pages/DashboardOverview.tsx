@@ -95,6 +95,20 @@ export default function DashboardOverview() {
 
   return (
     <div className="space-y-6">
+      {/* Workflow Navigation */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <a
+          href="#/intents/neue-reisebuchung"
+          className="flex items-center gap-4 bg-card border border-border border-l-4 border-l-primary rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow no-underline"
+        >
+          <div className="flex-1 min-w-0">
+            <p className="font-semibold text-sm text-foreground truncate">Neue Reisebuchung anlegen</p>
+            <p className="text-xs text-muted-foreground mt-0.5 line-clamp-2">Schritt-für-Schritt: Paket, Unterkunft, Ausflüge wählen & Preiskalkulation</p>
+          </div>
+          <IconChevronRight size={18} className="text-muted-foreground shrink-0" />
+        </a>
+      </div>
+
       {/* KPI Row */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
         <StatCard
